@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075D95292B028A25006E8E8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 075D95282B028A25006E8E8A /* AppDelegate.m */; };
+		075D952C2B028A25006E8E8A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 075D952B2B028A25006E8E8A /* SceneDelegate.m */; };
+		075D95322B028A25006E8E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075D95302B028A25006E8E8A /* Main.storyboard */; };
+		075D95342B028A26006E8E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075D95332B028A26006E8E8A /* Assets.xcassets */; };
+		075D95372B028A26006E8E8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075D95352B028A26006E8E8A /* LaunchScreen.storyboard */; };
+		075D953A2B028A26006E8E8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 075D95392B028A26006E8E8A /* main.m */; };
+		075D95452B029080006E8E8A /* PlacesListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075D95442B029080006E8E8A /* PlacesListTableViewController.m */; };
+		075D95482B02911C006E8E8A /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 075D95472B02911C006E8E8A /* Place.m */; };
+		075D954B2B029131006E8E8A /* PlacesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 075D954A2B029131006E8E8A /* PlacesList.m */; };
+		075D954E2B02C1F8006E8E8A /* PlacesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 075D954D2B02C1F8006E8E8A /* PlacesData.m */; };
+		075D95522B02D984006E8E8A /* PlaceDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075D95512B02D984006E8E8A /* PlaceDetailTableViewController.m */; };
+		075D95552B03D53A006E8E8A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075D95542B03D53A006E8E8A /* MapViewController.m */; };
+		075D95582B03DB41006E8E8A /* Place+MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 075D95572B03DB41006E8E8A /* Place+MapAnnotation.m */; };
+		075D955E2B054EAA006E8E8A /* NewplaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075D955D2B054EAA006E8E8A /* NewplaceTableViewController.m */; };
+		075D95612B05C052006E8E8A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075D95602B05C051006E8E8A /* MapKit.framework */; };
+		075D95632B065B9B006E8E8A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075D95622B065B9B006E8E8A /* CoreLocation.framework */; };
+		075D95652B06A580006E8E8A /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075D95642B06A580006E8E8A /* UserNotifications.framework */; };
+		075D95672B06BB9E006E8E8A /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075D95662B06BB9E006E8E8A /* NotificationCenter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		075D95242B028A25006E8E8A /* PlaceReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaceReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		075D95272B028A25006E8E8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		075D95282B028A25006E8E8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		075D952A2B028A25006E8E8A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		075D952B2B028A25006E8E8A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		075D95312B028A25006E8E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		075D95332B028A26006E8E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		075D95362B028A26006E8E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		075D95382B028A26006E8E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075D95392B028A26006E8E8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		075D95432B029080006E8E8A /* PlacesListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacesListTableViewController.h; sourceTree = "<group>"; };
+		075D95442B029080006E8E8A /* PlacesListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesListTableViewController.m; sourceTree = "<group>"; };
+		075D95462B02911C006E8E8A /* Place.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		075D95472B02911C006E8E8A /* Place.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		075D95492B029131006E8E8A /* PlacesList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacesList.h; sourceTree = "<group>"; };
+		075D954A2B029131006E8E8A /* PlacesList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesList.m; sourceTree = "<group>"; };
+		075D954C2B02C1F8006E8E8A /* PlacesData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacesData.h; sourceTree = "<group>"; };
+		075D954D2B02C1F8006E8E8A /* PlacesData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesData.m; sourceTree = "<group>"; };
+		075D954F2B02C33E006E8E8A /* PlaceDataProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceDataProtocol.h; sourceTree = "<group>"; };
+		075D95502B02D984006E8E8A /* PlaceDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceDetailTableViewController.h; sourceTree = "<group>"; };
+		075D95512B02D984006E8E8A /* PlaceDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceDetailTableViewController.m; sourceTree = "<group>"; };
+		075D95532B03D53A006E8E8A /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		075D95542B03D53A006E8E8A /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		075D95562B03DB41006E8E8A /* Place+MapAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Place+MapAnnotation.h"; sourceTree = "<group>"; };
+		075D95572B03DB41006E8E8A /* Place+MapAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Place+MapAnnotation.m"; sourceTree = "<group>"; };
+		075D955C2B054EAA006E8E8A /* NewplaceTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewplaceTableViewController.h; sourceTree = "<group>"; };
+		075D955D2B054EAA006E8E8A /* NewplaceTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewplaceTableViewController.m; sourceTree = "<group>"; };
+		075D95602B05C051006E8E8A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		075D95622B065B9B006E8E8A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		075D95642B06A580006E8E8A /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		075D95662B06BB9E006E8E8A /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		075D95212B028A25006E8E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075D95672B06BB9E006E8E8A /* NotificationCenter.framework in Frameworks */,
+				075D95652B06A580006E8E8A /* UserNotifications.framework in Frameworks */,
+				075D95632B065B9B006E8E8A /* CoreLocation.framework in Frameworks */,
+				075D95612B05C052006E8E8A /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075D951B2B028A25006E8E8A = {
+			isa = PBXGroup;
+			children = (
+				075D95262B028A25006E8E8A /* PlaceReminder */,
+				075D95252B028A25006E8E8A /* Products */,
+				075D955F2B05C051006E8E8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		075D95252B028A25006E8E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075D95242B028A25006E8E8A /* PlaceReminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		075D95262B028A25006E8E8A /* PlaceReminder */ = {
+			isa = PBXGroup;
+			children = (
+				075D95272B028A25006E8E8A /* AppDelegate.h */,
+				075D95282B028A25006E8E8A /* AppDelegate.m */,
+				075D952A2B028A25006E8E8A /* SceneDelegate.h */,
+				075D952B2B028A25006E8E8A /* SceneDelegate.m */,
+				075D95432B029080006E8E8A /* PlacesListTableViewController.h */,
+				075D95442B029080006E8E8A /* PlacesListTableViewController.m */,
+				075D95502B02D984006E8E8A /* PlaceDetailTableViewController.h */,
+				075D95512B02D984006E8E8A /* PlaceDetailTableViewController.m */,
+				075D95532B03D53A006E8E8A /* MapViewController.h */,
+				075D95542B03D53A006E8E8A /* MapViewController.m */,
+				075D955C2B054EAA006E8E8A /* NewplaceTableViewController.h */,
+				075D955D2B054EAA006E8E8A /* NewplaceTableViewController.m */,
+				075D95462B02911C006E8E8A /* Place.h */,
+				075D95472B02911C006E8E8A /* Place.m */,
+				075D95562B03DB41006E8E8A /* Place+MapAnnotation.h */,
+				075D95572B03DB41006E8E8A /* Place+MapAnnotation.m */,
+				075D95492B029131006E8E8A /* PlacesList.h */,
+				075D954A2B029131006E8E8A /* PlacesList.m */,
+				075D954F2B02C33E006E8E8A /* PlaceDataProtocol.h */,
+				075D954C2B02C1F8006E8E8A /* PlacesData.h */,
+				075D954D2B02C1F8006E8E8A /* PlacesData.m */,
+				075D95302B028A25006E8E8A /* Main.storyboard */,
+				075D95332B028A26006E8E8A /* Assets.xcassets */,
+				075D95352B028A26006E8E8A /* LaunchScreen.storyboard */,
+				075D95382B028A26006E8E8A /* Info.plist */,
+				075D95392B028A26006E8E8A /* main.m */,
+			);
+			path = PlaceReminder;
+			sourceTree = "<group>";
+		};
+		075D955F2B05C051006E8E8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				075D95662B06BB9E006E8E8A /* NotificationCenter.framework */,
+				075D95642B06A580006E8E8A /* UserNotifications.framework */,
+				075D95622B065B9B006E8E8A /* CoreLocation.framework */,
+				075D95602B05C051006E8E8A /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		075D95232B028A25006E8E8A /* PlaceReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075D953D2B028A26006E8E8A /* Build configuration list for PBXNativeTarget "PlaceReminder" */;
+			buildPhases = (
+				075D95202B028A25006E8E8A /* Sources */,
+				075D95212B028A25006E8E8A /* Frameworks */,
+				075D95222B028A25006E8E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaceReminder;
+			productName = PlaceReminder;
+			productReference = 075D95242B028A25006E8E8A /* PlaceReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		075D951C2B028A25006E8E8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					075D95232B028A25006E8E8A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 075D951F2B028A25006E8E8A /* Build configuration list for PBXProject "PlaceReminder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 075D951B2B028A25006E8E8A;
+			productRefGroup = 075D95252B028A25006E8E8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				075D95232B028A25006E8E8A /* PlaceReminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		075D95222B028A25006E8E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075D95372B028A26006E8E8A /* LaunchScreen.storyboard in Resources */,
+				075D95342B028A26006E8E8A /* Assets.xcassets in Resources */,
+				075D95322B028A25006E8E8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		075D95202B028A25006E8E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075D95452B029080006E8E8A /* PlacesListTableViewController.m in Sources */,
+				075D955E2B054EAA006E8E8A /* NewplaceTableViewController.m in Sources */,
+				075D95522B02D984006E8E8A /* PlaceDetailTableViewController.m in Sources */,
+				075D954E2B02C1F8006E8E8A /* PlacesData.m in Sources */,
+				075D95552B03D53A006E8E8A /* MapViewController.m in Sources */,
+				075D954B2B029131006E8E8A /* PlacesList.m in Sources */,
+				075D95582B03DB41006E8E8A /* Place+MapAnnotation.m in Sources */,
+				075D95292B028A25006E8E8A /* AppDelegate.m in Sources */,
+				075D95482B02911C006E8E8A /* Place.m in Sources */,
+				075D953A2B028A26006E8E8A /* main.m in Sources */,
+				075D952C2B028A25006E8E8A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		075D95302B028A25006E8E8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075D95312B028A25006E8E8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		075D95352B028A26006E8E8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075D95362B028A26006E8E8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		075D953B2B028A26006E8E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		075D953C2B028A26006E8E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		075D953E2B028A26006E8E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5LTR5NHVM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlaceReminder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unipr.PlaceReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		075D953F2B028A26006E8E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5LTR5NHVM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlaceReminder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unipr.PlaceReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		075D951F2B028A25006E8E8A /* Build configuration list for PBXProject "PlaceReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075D953B2B028A26006E8E8A /* Debug */,
+				075D953C2B028A26006E8E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075D953D2B028A26006E8E8A /* Build configuration list for PBXNativeTarget "PlaceReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075D953E2B028A26006E8E8A /* Debug */,
+				075D953F2B028A26006E8E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 075D951C2B028A25006E8E8A /* Project object */;
+}
